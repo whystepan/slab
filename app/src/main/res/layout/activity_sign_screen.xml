@@ -21,7 +21,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
+        android:fontFamily="@font/semibold"
         android:text="Добро пожаловать!"
+        android:textColor="#000000"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintStart_toEndOf="@+id/imageView2"
         app:layout_constraintTop_toTopOf="@+id/imageView2" />
@@ -31,7 +34,9 @@
         android:layout_width="294dp"
         android:layout_height="39dp"
         android:layout_marginTop="24dp"
+        android:fontFamily="@font/regular"
         android:text="Войдите, чтобы пользоваться функциями приложения"
+        android:textColor="#000000"
         app:layout_constraintStart_toStartOf="@+id/imageView2"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
@@ -44,6 +49,7 @@
         android:background="@drawable/tvbg"
         android:backgroundTint="@color/bgfive"
         android:ems="10"
+        android:fontFamily="@font/regular"
         android:hint="example@mail.ru"
         android:inputType="textEmailAddress"
         android:paddingLeft="10sp"
@@ -59,7 +65,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
+        android:fontFamily="@font/regular"
         android:text="Вход по E-mail"
+        android:textSize="15sp"
         app:layout_constraintBottom_toTopOf="@+id/edEmailSign"
         app:layout_constraintStart_toStartOf="@+id/edEmailSign" />
 
@@ -70,9 +78,11 @@
         android:layout_marginTop="24dp"
         android:background="@drawable/tvbg"
         android:backgroundTint="@color/btnblue"
+        android:fontFamily="@font/semibold"
         android:gravity="center"
         android:text="Далее"
         android:textColor="#FFFFFF"
+        android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="@+id/edEmailSign"
         app:layout_constraintStart_toStartOf="@+id/edEmailSign"
         app:layout_constraintTop_toBottomOf="@+id/edEmailSign" />
@@ -85,9 +95,11 @@
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="32dp"
         android:background="@drawable/tvbg"
+        android:fontFamily="@font/semibold"
         android:gravity="center"
         android:text="Войти с Яндекс"
         android:textColor="#000000"
+        android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -97,7 +109,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
+        android:fontFamily="@font/regular"
         android:text="Или войдите с помощью"
+        android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/textView5"
         app:layout_constraintEnd_toEndOf="@+id/textView5"
         app:layout_constraintStart_toStartOf="@+id/textView5" />
